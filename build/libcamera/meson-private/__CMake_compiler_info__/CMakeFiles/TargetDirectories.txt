@@ -1,0 +1,2 @@
+/home/pi/camera_ws/build/libcamera/meson-private/__CMake_compiler_info__/CMakeFiles/edit_cache.dir
+/home/pi/camera_ws/build/libcamera/meson-private/__CMake_compiler_info__/CMakeFiles/rebuild_cache.dir

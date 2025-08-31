@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/camera_ws/build/libcamera': /usr/bin/meson setup --libdir=lib --prefix=/home/pi/camera_ws/install/libcamera --buildtype=release /home/pi/camera_ws/build/libcamera /home/pi/camera_ws/src/libcamera --reconfigure
+Invoked command in '/home/pi/camera_ws/build/libcamera' returned '0': /usr/bin/meson setup --libdir=lib --prefix=/home/pi/camera_ws/install/libcamera --buildtype=release /home/pi/camera_ws/build/libcamera /home/pi/camera_ws/src/libcamera --reconfigure
+Invoking command in '/home/pi/camera_ws/build/libcamera': /usr/bin/meson compile
+Invoked command in '/home/pi/camera_ws/build/libcamera' returned '0': /usr/bin/meson compile
+Invoking command in '/home/pi/camera_ws/build/libcamera': /usr/bin/meson install
+Invoked command in '/home/pi/camera_ws/build/libcamera' returned '0': /usr/bin/meson install

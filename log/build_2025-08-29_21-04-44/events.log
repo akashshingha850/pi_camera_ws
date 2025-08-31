@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.001583] (libcamera) JobQueued: {'identifier': 'libcamera', 'dependencies': OrderedDict()}
+[0.001759] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict({'libcamera': '/home/pi/camera_ws/install/libcamera'})}
+[0.002887] (libcamera) JobStarted: {'identifier': 'libcamera'}
+[0.062176] (libcamera) JobProgress: {'identifier': 'libcamera', 'progress': 'meson'}
+[0.080216] (libcamera) JobProgress: {'identifier': 'libcamera', 'progress': 'build'}
+[0.080527] (libcamera) Command: {'cmd': ['/usr/bin/meson', 'compile'], 'cwd': '/home/pi/camera_ws/build/libcamera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.100 35418 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/picam_ws/install/camera_ros/lib:/home/pi/picam_ws/install/libcamera/lib:/home/pi/camera_ws/install/camera_ros/lib:/home/pi/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/camera_ws/install:/home/pi/picam_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/picam_ws/install/libcamera/lib/pkgconfig:/home/pi/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'PATH': '/home/pi/picam_ws/install/libcamera/bin:/home/pi/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/pi/picam_ws/install/camera_ros:/home/pi/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/camera_ws/build/libcamera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.100 35418 192.168.0.103 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/picam_ws/install/libcamera/lib/python3.12/site-packages:/home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/picam_ws/install/camera_ros:/home/pi/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099150] (-) TimerEvent: {}
+[0.199833] (-) TimerEvent: {}
+[0.300550] (-) TimerEvent: {}
+[0.401256] (-) TimerEvent: {}
+[0.501953] (-) TimerEvent: {}
+[0.602707] (-) TimerEvent: {}
+[0.703473] (-) TimerEvent: {}
+[0.804191] (-) TimerEvent: {}
+[0.904828] (-) TimerEvent: {}
+[1.005497] (-) TimerEvent: {}
+[1.106094] (-) TimerEvent: {}
+[1.177220] (libcamera) StdoutLine: {'line': b'\x1b[1;32mINFO:\x1b[0m autodetecting backend as ninja\n'}
+[1.189333] (libcamera) StdoutLine: {'line': b'\x1b[1;32mINFO:\x1b[0m calculating backend command to run: /usr/bin/ninja\n'}
+[1.206293] (-) TimerEvent: {}
+[1.281282] (libcamera) StdoutLine: {'line': b'\n'}
+[1.306470] (-) TimerEvent: {}
+[1.407221] (-) TimerEvent: {}
+[1.507861] (-) TimerEvent: {}
+[1.608617] (-) TimerEvent: {}
+[1.709289] (-) TimerEvent: {}
+[1.795474] (libcamera) StdoutLine: {'line': b'[0/24] Generating src/libcamera/version.cpp with a custom command\x1b[K\n'}
+[1.796466] (libcamera) StdoutLine: {'line': b'[1/24] Generating src/libcamera/version.cpp with a custom command\x1b[K\n'}
+[1.809548] (-) TimerEvent: {}
+[1.910546] (-) TimerEvent: {}
+[1.978272] (libcamera) CommandEnded: {'returncode': 0}
+[1.983260] (libcamera) JobProgress: {'identifier': 'libcamera', 'progress': 'install'}
+[1.985154] (libcamera) Command: {'cmd': ['/usr/bin/meson', 'install'], 'cwd': '/home/pi/camera_ws/build/libcamera', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.100 35418 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/picam_ws/install/camera_ros/lib:/home/pi/picam_ws/install/libcamera/lib:/home/pi/camera_ws/install/camera_ros/lib:/home/pi/camera_ws/install/libcamera/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/camera_ws/install:/home/pi/picam_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/picam_ws/install/libcamera/lib/pkgconfig:/home/pi/camera_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'PATH': '/home/pi/picam_ws/install/libcamera/bin:/home/pi/camera_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/pi/picam_ws/install/camera_ros:/home/pi/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/camera_ws/build/libcamera', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.100 35418 192.168.0.103 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/picam_ws/install/libcamera/lib/python3.12/site-packages:/home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/picam_ws/install/camera_ros:/home/pi/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.010784] (-) TimerEvent: {}
+[2.111628] (-) TimerEvent: {}
+[2.212266] (-) TimerEvent: {}
+[2.312936] (-) TimerEvent: {}
+[2.413649] (-) TimerEvent: {}
+[2.514438] (-) TimerEvent: {}
+[2.615221] (-) TimerEvent: {}
+[2.715891] (-) TimerEvent: {}
+[2.816634] (-) TimerEvent: {}
+[2.917282] (-) TimerEvent: {}
+[3.017902] (-) TimerEvent: {}
+[3.092424] (libcamera) StdoutLine: {'line': b"ninja: Entering directory `/home/pi/camera_ws/build/libcamera'\n"}
+[3.118179] (-) TimerEvent: {}
+[3.174871] (libcamera) StdoutLine: {'line': b'\n'}
+[3.218267] (-) TimerEvent: {}
+[3.318956] (-) TimerEvent: {}
+[3.419680] (-) TimerEvent: {}
+[3.520394] (-) TimerEvent: {}
+[3.621098] (-) TimerEvent: {}
+[3.689360] (libcamera) StdoutLine: {'line': b'[0/24] Generating src/libcamera/version.cpp with a custom command\x1b[K\n'}
+[3.690279] (libcamera) StdoutLine: {'line': b'[1/24] Generating src/libcamera/version.cpp with a custom command\x1b[K\n'}
+[3.694789] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/core_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.696533] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/mali-c55_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.698020] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/rkisp1_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.699887] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/raspberrypi_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.701791] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/ipa/soft_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.703559] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/control_ids.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.705391] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/property_ids.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.707079] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/formats.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.708748] (libcamera) StdoutLine: {'line': b'Installing include/libcamera/libcamera.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.710079] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/base/libcamera-base.so.0.5.1 to /home/pi/camera_ws/install/libcamera/lib\n'}
+[3.714329] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/libcamera.so.0.5.1 to /home/pi/camera_ws/install/libcamera/lib\n'}
+[3.721299] (-) TimerEvent: {}
+[3.731101] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/proxy/worker/mali-c55_ipa_proxy to /home/pi/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.735174] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/proxy/worker/rkisp1_ipa_proxy to /home/pi/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.739273] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/proxy/worker/raspberrypi_ipa_proxy to /home/pi/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.743366] (libcamera) StdoutLine: {'line': b'Installing src/libcamera/proxy/worker/soft_ipa_proxy to /home/pi/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.747608] (libcamera) StdoutLine: {'line': b'Installing src/ipa/mali-c55/ipa_mali_c55.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.752650] (libcamera) StdoutLine: {'line': b'Installing src/ipa/rkisp1/ipa_rkisp1.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.758285] (libcamera) StdoutLine: {'line': b'Installing src/ipa/rpi/pisp/ipa_rpi_pisp.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.765863] (libcamera) StdoutLine: {'line': b'Installing src/ipa/rpi/vc4/ipa_rpi_vc4.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.773529] (libcamera) StdoutLine: {'line': b'Installing src/ipa/simple/ipa_soft_simple.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa\n'}
+[3.777982] (libcamera) StdoutLine: {'line': b'Installing src/apps/lc-compliance/lc-compliance to /home/pi/camera_ws/install/libcamera/bin\n'}
+[3.784987] (libcamera) StdoutLine: {'line': b'Installing src/apps/cam/cam to /home/pi/camera_ws/install/libcamera/bin\n'}
+[3.790293] (libcamera) StdoutLine: {'line': b'Installing src/gstreamer/libgstlibcamera.so to /home/pi/camera_ws/install/libcamera/lib/gstreamer-1.0\n'}
+[3.794674] (libcamera) StdoutLine: {'line': b'Installing src/py/libcamera/_libcamera.so to /home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages/libcamera\n'}
+[3.806345] (libcamera) StdoutLine: {'line': b'Installing src/v4l2/v4l2-compat.so to /home/pi/camera_ws/install/libcamera/libexec/libcamera\n'}
+[3.810295] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/bound_method.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.811758] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/class.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.813077] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/flags.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.814382] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/object.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.815645] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/shared_fd.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.816950] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/signal.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.818308] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/span.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.819588] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/unique_fd.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base\n'}
+[3.820894] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/ipa/ipa_controls.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.821464] (-) TimerEvent: {}
+[3.822256] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/ipa/ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.823658] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/ipa/ipa_module_info.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa\n'}
+[3.824941] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/camera.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.826252] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/camera_manager.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.827548] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/color_space.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.828806] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/controls.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.830215] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/fence.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.831490] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/framebuffer.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.832791] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/framebuffer_allocator.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.834102] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/geometry.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.835440] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/logging.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.836696] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/orientation.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.837961] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/pixel_format.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.839238] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/request.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.840531] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/stream.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.841782] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/include/libcamera/transform.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.843052] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/build/libcamera/include/libcamera/version.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera\n'}
+[3.844325] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/build/libcamera/meson-private/libcamera-base.pc to /home/pi/camera_ws/install/libcamera/lib/pkgconfig\n'}
+[3.845668] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/pisp/data/example.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/pisp\n'}
+[3.847014] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/example.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/vc4\n'}
+[3.848384] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/rpi_apps.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/vc4\n'}
+[3.849696] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/build/libcamera/meson-private/libcamera.pc to /home/pi/camera_ws/install/libcamera/lib/pkgconfig\n'}
+[3.850916] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/mali-c55/data/imx415.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/mali-c55\n'}
+[3.852447] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/mali-c55/data/uncalibrated.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/mali-c55\n'}
+[3.853800] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/imx219.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[3.855167] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/imx258.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[3.856642] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov2685.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[3.858062] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov4689.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[3.859358] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov5640.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[3.860783] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov5695.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[3.862350] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov8858.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[3.863859] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/uncalibrated.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1\n'}
+[3.865185] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx219.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.866951] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx219_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.868707] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx283.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.870640] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx290.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.872051] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx296.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.873823] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx296_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.875388] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx378.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.876982] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx415.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.878705] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx462.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.880060] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.881781] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.883579] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477_scientific.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.885028] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx500.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.886773] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx519.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.888325] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.890141] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.891874] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.893673] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.895410] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov5647.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.897145] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov5647_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.898855] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov64a40.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.900554] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov9281_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.901938] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/se327m12.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.903510] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/uncalibrated.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp\n'}
+[3.904863] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx219.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.906331] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx219_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.907766] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx283.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.909189] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx290.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.910510] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx296.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.911922] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx296_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.913328] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx327.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.914618] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx378.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.916014] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx415.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.917389] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx462.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.918741] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.920245] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.921619] (-) TimerEvent: {}
+[3.922220] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477_scientific.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.923259] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx500.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.924801] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx519.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.926189] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.927612] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.929084] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.930594] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.932058] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov5647.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.933533] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov5647_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.934987] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov64a40.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.936376] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov7251_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.937823] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov9281_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.939404] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/se327m12.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.941101] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/uncalibrated.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4\n'}
+[3.942625] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/ipa/simple/data/uncalibrated.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/simple\n'}
+[3.944031] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/src/libcamera/src/py/libcamera/__init__.py to /home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages/libcamera\n'}
+[3.945358] (libcamera) StdoutLine: {'line': b'Installing /home/pi/camera_ws/build/libcamera/src/v4l2/libcamerify to /home/pi/camera_ws/install/libcamera/bin\n'}
+[3.946970] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libcamera-base.so.0.5.1 to /home/pi/camera_ws/install/libcamera/lib/libcamera-base.so.0.5\n'}
+[3.947757] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libcamera-base.so.0.5 to /home/pi/camera_ws/install/libcamera/lib/libcamera-base.so\n'}
+[3.948450] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libcamera.so.0.5.1 to /home/pi/camera_ws/install/libcamera/lib/libcamera.so.0.5\n'}
+[3.949197] (libcamera) StdoutLine: {'line': b'Installing symlink pointing to libcamera.so.0.5 to /home/pi/camera_ws/install/libcamera/lib/libcamera.so\n'}
+[3.950898] (libcamera) StdoutLine: {'line': b"Running custom install script '/home/pi/camera_ws/src/libcamera/src/ipa/ipa-sign-install.sh /home/pi/camera_ws/build/libcamera/src/ipa-priv-key.pem lib/libcamera/ipa/ipa_mali_c55.so lib/libcamera/ipa/ipa_rkisp1.so lib/libcamera/ipa/ipa_rpi_pisp.so lib/libcamera/ipa/ipa_rpi_vc4.so lib/libcamera/ipa/ipa_soft_simple.so'\n"}
+[3.963610] (libcamera) StdoutLine: {'line': b'Regenerating IPA modules signatures\n'}
+[4.021848] (-) TimerEvent: {}
+[4.122731] (-) TimerEvent: {}
+[4.223498] (-) TimerEvent: {}
+[4.324464] (-) TimerEvent: {}
+[4.368632] (libcamera) CommandEnded: {'returncode': 0}
+[4.424751] (-) TimerEvent: {}
+[4.474316] (libcamera) JobEnded: {'identifier': 'libcamera', 'rc': 0}
+[4.478087] (camera_ros) JobStarted: {'identifier': 'camera_ros'}
+[4.523950] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'cmake'}
+[4.525398] (-) TimerEvent: {}
+[4.527992] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'build'}
+[4.533796] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/camera_ws/build/camera_ros', '--', '-j4', '-l4'], 'cwd': '/home/pi/camera_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.100 35418 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/camera_ws/install/libcamera/lib:/home/pi/picam_ws/install/camera_ros/lib:/home/pi/picam_ws/install/libcamera/lib:/home/pi/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/camera_ws/install:/home/pi/picam_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/camera_ws/install/libcamera/lib/pkgconfig:/home/pi/picam_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'PATH': '/home/pi/camera_ws/install/libcamera/bin:/home/pi/picam_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/pi/picam_ws/install/camera_ros:/home/pi/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/camera_ws/build/camera_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.100 35418 192.168.0.103 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages:/home/pi/picam_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/picam_ws/install/camera_ros:/home/pi/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.625724] (-) TimerEvent: {}
+[4.726639] (-) TimerEvent: {}
+[4.831301] (-) TimerEvent: {}
+[4.906718] (camera_ros) StdoutLine: {'line': b'[ 15%] Built target utils\n'}
+[4.911690] (camera_ros) StdoutLine: {'line': b'[ 30%] Built target camera_node\n'}
+[4.931490] (-) TimerEvent: {}
+[4.984987] (camera_ros) StdoutLine: {'line': b'[ 84%] Built target param\n'}
+[5.031690] (-) TimerEvent: {}
+[5.132718] (-) TimerEvent: {}
+[5.197966] (camera_ros) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_component.so\x1b[0m\n'}
+[5.232907] (-) TimerEvent: {}
+[5.333996] (-) TimerEvent: {}
+[5.434947] (-) TimerEvent: {}
+[5.535848] (-) TimerEvent: {}
+[5.636634] (-) TimerEvent: {}
+[5.737433] (-) TimerEvent: {}
+[5.838620] (-) TimerEvent: {}
+[5.939513] (-) TimerEvent: {}
+[6.040366] (-) TimerEvent: {}
+[6.141427] (-) TimerEvent: {}
+[6.242293] (-) TimerEvent: {}
+[6.343062] (-) TimerEvent: {}
+[6.444310] (-) TimerEvent: {}
+[6.545307] (-) TimerEvent: {}
+[6.649307] (-) TimerEvent: {}
+[6.750457] (-) TimerEvent: {}
+[6.851629] (-) TimerEvent: {}
+[6.953246] (-) TimerEvent: {}
+[7.054657] (-) TimerEvent: {}
+[7.155976] (-) TimerEvent: {}
+[7.256858] (-) TimerEvent: {}
+[7.357694] (-) TimerEvent: {}
+[7.458538] (-) TimerEvent: {}
+[7.559337] (-) TimerEvent: {}
+[7.660340] (-) TimerEvent: {}
+[7.761381] (-) TimerEvent: {}
+[7.862015] (-) TimerEvent: {}
+[7.962803] (-) TimerEvent: {}
+[8.063591] (-) TimerEvent: {}
+[8.125185] (camera_ros) StdoutLine: {'line': b'[100%] Built target camera_component\n'}
+[8.163786] (-) TimerEvent: {}
+[8.190742] (camera_ros) CommandEnded: {'returncode': 0}
+[8.193023] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'install'}
+[8.248758] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/camera_ws/build/camera_ros'], 'cwd': '/home/pi/camera_ws/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.100 35418 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/camera_ws/install/libcamera/lib:/home/pi/picam_ws/install/camera_ros/lib:/home/pi/picam_ws/install/libcamera/lib:/home/pi/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/camera_ws/install:/home/pi/picam_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi/camera_ws/install/libcamera/lib/pkgconfig:/home/pi/picam_ws/install/libcamera/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '24', 'PATH': '/home/pi/camera_ws/install/libcamera/bin:/home/pi/picam_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/pi/picam_ws/install/camera_ros:/home/pi/camera_ws/install/camera_ros:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/camera_ws/build/camera_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.100 35418 192.168.0.103 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages:/home/pi/picam_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/picam_ws/install/camera_ros:/home/pi/camera_ws/install/camera_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.263966] (-) TimerEvent: {}
+[8.297760] (camera_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.299342] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/lib/camera_ros/camera_node\n'}
+[8.301073] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.sh\n'}
+[8.301769] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.dsv\n'}
+[8.303048] (camera_ros) StdoutLine: {'line': b'-- Installing: /home/pi/camera_ws/install/camera_ros/lib/libcamera_component.so\n'}
+[8.364197] (-) TimerEvent: {}
+[8.366666] (camera_ros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pi/camera_ws/install/camera_ros/lib/libcamera_component.so" to ""\n'}
+[8.367440] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros//launch\n'}
+[8.368101] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py\n'}
+[8.368636] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros\n'}
+[8.369238] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros\n'}
+[8.369876] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh\n'}
+[8.370537] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv\n'}
+[8.371108] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/path.sh\n'}
+[8.371800] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/path.dsv\n'}
+[8.372404] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.bash\n'}
+[8.372894] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.sh\n'}
+[8.373356] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.zsh\n'}
+[8.373795] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.dsv\n'}
+[8.374399] (camera_ros) StdoutLine: {'line': b'-- Installing: /home/pi/camera_ws/install/camera_ros/share/camera_ros/package.dsv\n'}
+[8.374880] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros\n'}
+[8.375537] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros\n'}
+[8.376062] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake\n'}
+[8.376665] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake\n'}
+[8.377318] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.377976] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.378523] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake\n'}
+[8.378986] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake\n'}
+[8.379478] (camera_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/package.xml\n'}
+[8.385102] (camera_ros) CommandEnded: {'returncode': 0}
+[8.464343] (-) TimerEvent: {}
+[8.501763] (camera_ros) JobEnded: {'identifier': 'camera_ros', 'rc': 0}
+[8.504686] (-) EventReactorShutdown: {}

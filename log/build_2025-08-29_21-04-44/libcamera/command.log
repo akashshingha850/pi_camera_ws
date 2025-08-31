@@ -1,0 +1,4 @@
+Invoking command in '/home/pi/camera_ws/build/libcamera': /usr/bin/meson compile
+Invoked command in '/home/pi/camera_ws/build/libcamera' returned '0': /usr/bin/meson compile
+Invoking command in '/home/pi/camera_ws/build/libcamera': /usr/bin/meson install
+Invoked command in '/home/pi/camera_ws/build/libcamera' returned '0': /usr/bin/meson install

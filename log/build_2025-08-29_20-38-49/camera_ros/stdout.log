@@ -1,0 +1,39 @@
+[  7%] [32mBuilding CXX object CMakeFiles/utils.dir/src/format_mapping.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/utils.dir/src/pretty_print.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/param.dir/src/type_extent.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/param.dir/src/ParameterHandler.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/param.dir/src/ParameterConflictHandler.cpp.o[0m
+[ 38%] Built target utils
+[ 53%] Built target camera_node
+[ 84%] Built target param
+[ 92%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/CameraNode.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+[100%] Built target camera_component
+-- Install configuration: ""
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/lib/camera_ros/camera_node
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.sh
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.dsv
+-- Installing: /home/pi/camera_ws/install/camera_ros/lib/libcamera_component.so
+-- Set non-toolchain portion of runtime path of "/home/pi/camera_ws/install/camera_ros/lib/libcamera_component.so" to ""
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros//launch
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/path.sh
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/path.dsv
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.bash
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.sh
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.zsh
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.dsv
+-- Installing: /home/pi/camera_ws/install/camera_ros/share/camera_ros/package.dsv
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+-- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/package.xml

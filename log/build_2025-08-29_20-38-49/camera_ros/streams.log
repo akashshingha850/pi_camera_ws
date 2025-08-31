@@ -1,0 +1,43 @@
+[0.106s] Invoking command in '/home/pi/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/pi/camera_ws/install/libcamera/lib:/home/pi/picam_ws/install/camera_ros/lib:/home/pi/picam_ws/install/libcamera/lib:/home/pi/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PATH=/home/pi/camera_ws/install/libcamera/bin:/home/pi/picam_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin PKG_CONFIG_PATH=/home/pi/camera_ws/install/libcamera/lib/pkgconfig:/home/pi/picam_ws/install/libcamera/lib/pkgconfig PYTHONPATH=/home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages:/home/pi/picam_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/pi/camera_ws/build/camera_ros -- -j4 -l4
+[0.941s] [  7%] [32mBuilding CXX object CMakeFiles/utils.dir/src/format_mapping.cpp.o[0m
+[0.945s] [ 15%] [32mBuilding CXX object CMakeFiles/utils.dir/src/pretty_print.cpp.o[0m
+[1.023s] [ 23%] [32mBuilding CXX object CMakeFiles/param.dir/src/type_extent.cpp.o[0m
+[6.518s] [ 30%] [32mBuilding CXX object CMakeFiles/param.dir/src/ParameterHandler.cpp.o[0m
+[7.158s] [ 38%] [32mBuilding CXX object CMakeFiles/param.dir/src/ParameterConflictHandler.cpp.o[0m
+[16.112s] [ 38%] Built target utils
+[16.409s] [ 53%] Built target camera_node
+[28.060s] [ 84%] Built target param
+[28.308s] [ 92%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/CameraNode.cpp.o[0m
+[78.420s] [100%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+[81.717s] [100%] Built target camera_component
+[81.789s] Invoked command in '/home/pi/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/pi/camera_ws/install/libcamera/lib:/home/pi/picam_ws/install/camera_ros/lib:/home/pi/picam_ws/install/libcamera/lib:/home/pi/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PATH=/home/pi/camera_ws/install/libcamera/bin:/home/pi/picam_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin PKG_CONFIG_PATH=/home/pi/camera_ws/install/libcamera/lib/pkgconfig:/home/pi/picam_ws/install/libcamera/lib/pkgconfig PYTHONPATH=/home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages:/home/pi/picam_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/pi/camera_ws/build/camera_ros -- -j4 -l4
+[81.854s] Invoking command in '/home/pi/camera_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/pi/camera_ws/install/libcamera/lib:/home/pi/picam_ws/install/camera_ros/lib:/home/pi/picam_ws/install/libcamera/lib:/home/pi/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PATH=/home/pi/camera_ws/install/libcamera/bin:/home/pi/picam_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin PKG_CONFIG_PATH=/home/pi/camera_ws/install/libcamera/lib/pkgconfig:/home/pi/picam_ws/install/libcamera/lib/pkgconfig PYTHONPATH=/home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages:/home/pi/picam_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/pi/camera_ws/build/camera_ros
+[81.904s] -- Install configuration: ""
+[81.910s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/lib/camera_ros/camera_node
+[81.913s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.sh
+[81.914s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/library_path.dsv
+[81.918s] -- Installing: /home/pi/camera_ws/install/camera_ros/lib/libcamera_component.so
+[81.979s] -- Set non-toolchain portion of runtime path of "/home/pi/camera_ws/install/camera_ros/lib/libcamera_component.so" to ""
+[81.980s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros//launch
+[81.982s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py
+[81.983s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+[81.985s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+[81.985s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+[81.986s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+[81.987s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/path.sh
+[81.987s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/environment/path.dsv
+[81.988s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.bash
+[81.989s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.sh
+[81.989s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.zsh
+[81.990s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/local_setup.dsv
+[81.990s] -- Installing: /home/pi/camera_ws/install/camera_ros/share/camera_ros/package.dsv
+[81.991s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+[81.992s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+[81.996s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport.cmake
+[81.997s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_componentTargetsExport-noconfig.cmake
+[81.998s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_targets-extras.cmake
+[81.998s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[81.999s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+[82.000s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+[82.000s] -- Up-to-date: /home/pi/camera_ws/install/camera_ros/share/camera_ros/package.xml
+[82.008s] Invoked command in '/home/pi/camera_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy LD_LIBRARY_PATH=/home/pi/camera_ws/install/libcamera/lib:/home/pi/picam_ws/install/camera_ros/lib:/home/pi/picam_ws/install/libcamera/lib:/home/pi/camera_ws/install/camera_ros/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PATH=/home/pi/camera_ws/install/libcamera/bin:/home/pi/picam_ws/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin PKG_CONFIG_PATH=/home/pi/camera_ws/install/libcamera/lib/pkgconfig:/home/pi/picam_ws/install/libcamera/lib/pkgconfig PYTHONPATH=/home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages:/home/pi/picam_ws/install/libcamera/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/pi/camera_ws/build/camera_ros

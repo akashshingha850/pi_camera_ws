@@ -1,0 +1,138 @@
+[0.083s] Invoking command in '/home/pi/camera_ws/build/libcamera': /usr/bin/meson compile
+[1.175s] [1;32mINFO:[0m autodetecting backend as ninja
+[1.187s] [1;32mINFO:[0m calculating backend command to run: /usr/bin/ninja
+[1.279s] 
+[1.793s] [0/24] Generating src/libcamera/version.cpp with a custom command[K
+[1.794s] [1/24] Generating src/libcamera/version.cpp with a custom command[K
+[1.976s] Invoked command in '/home/pi/camera_ws/build/libcamera' returned '0': /usr/bin/meson compile
+[1.987s] Invoking command in '/home/pi/camera_ws/build/libcamera': /usr/bin/meson install
+[3.090s] ninja: Entering directory `/home/pi/camera_ws/build/libcamera'
+[3.172s] 
+[3.687s] [0/24] Generating src/libcamera/version.cpp with a custom command[K
+[3.688s] [1/24] Generating src/libcamera/version.cpp with a custom command[K
+[3.692s] Installing include/libcamera/ipa/core_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.694s] Installing include/libcamera/ipa/mali-c55_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.696s] Installing include/libcamera/ipa/rkisp1_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.697s] Installing include/libcamera/ipa/raspberrypi_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.699s] Installing include/libcamera/ipa/soft_ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.701s] Installing include/libcamera/control_ids.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.703s] Installing include/libcamera/property_ids.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.705s] Installing include/libcamera/formats.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.706s] Installing include/libcamera/libcamera.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.707s] Installing src/libcamera/base/libcamera-base.so.0.5.1 to /home/pi/camera_ws/install/libcamera/lib
+[3.712s] Installing src/libcamera/libcamera.so.0.5.1 to /home/pi/camera_ws/install/libcamera/lib
+[3.729s] Installing src/libcamera/proxy/worker/mali-c55_ipa_proxy to /home/pi/camera_ws/install/libcamera/libexec/libcamera
+[3.733s] Installing src/libcamera/proxy/worker/rkisp1_ipa_proxy to /home/pi/camera_ws/install/libcamera/libexec/libcamera
+[3.737s] Installing src/libcamera/proxy/worker/raspberrypi_ipa_proxy to /home/pi/camera_ws/install/libcamera/libexec/libcamera
+[3.741s] Installing src/libcamera/proxy/worker/soft_ipa_proxy to /home/pi/camera_ws/install/libcamera/libexec/libcamera
+[3.745s] Installing src/ipa/mali-c55/ipa_mali_c55.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.750s] Installing src/ipa/rkisp1/ipa_rkisp1.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.756s] Installing src/ipa/rpi/pisp/ipa_rpi_pisp.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.763s] Installing src/ipa/rpi/vc4/ipa_rpi_vc4.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.771s] Installing src/ipa/simple/ipa_soft_simple.so to /home/pi/camera_ws/install/libcamera/lib/libcamera/ipa
+[3.775s] Installing src/apps/lc-compliance/lc-compliance to /home/pi/camera_ws/install/libcamera/bin
+[3.783s] Installing src/apps/cam/cam to /home/pi/camera_ws/install/libcamera/bin
+[3.788s] Installing src/gstreamer/libgstlibcamera.so to /home/pi/camera_ws/install/libcamera/lib/gstreamer-1.0
+[3.792s] Installing src/py/libcamera/_libcamera.so to /home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages/libcamera
+[3.804s] Installing src/v4l2/v4l2-compat.so to /home/pi/camera_ws/install/libcamera/libexec/libcamera
+[3.808s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/bound_method.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.809s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/class.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.810s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/flags.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.812s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/object.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.813s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/shared_fd.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.814s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/signal.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.816s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/span.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.817s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/base/unique_fd.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/base
+[3.818s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/ipa/ipa_controls.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.820s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/ipa/ipa_interface.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.821s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/ipa/ipa_module_info.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera/ipa
+[3.822s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/camera.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.824s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/camera_manager.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.825s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/color_space.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.826s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/controls.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.828s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/fence.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.829s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/framebuffer.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.830s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/framebuffer_allocator.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.832s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/geometry.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.833s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/logging.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.834s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/orientation.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.835s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/pixel_format.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.837s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/request.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.838s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/stream.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.839s] Installing /home/pi/camera_ws/src/libcamera/include/libcamera/transform.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.841s] Installing /home/pi/camera_ws/build/libcamera/include/libcamera/version.h to /home/pi/camera_ws/install/libcamera/include/libcamera/libcamera
+[3.842s] Installing /home/pi/camera_ws/build/libcamera/meson-private/libcamera-base.pc to /home/pi/camera_ws/install/libcamera/lib/pkgconfig
+[3.843s] Installing /home/pi/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/pisp/data/example.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/pisp
+[3.844s] Installing /home/pi/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/example.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/vc4
+[3.846s] Installing /home/pi/camera_ws/src/libcamera/src/libcamera/pipeline/rpi/vc4/data/rpi_apps.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/pipeline/rpi/vc4
+[3.847s] Installing /home/pi/camera_ws/build/libcamera/meson-private/libcamera.pc to /home/pi/camera_ws/install/libcamera/lib/pkgconfig
+[3.848s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/mali-c55/data/imx415.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/mali-c55
+[3.850s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/mali-c55/data/uncalibrated.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/mali-c55
+[3.851s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/imx219.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[3.853s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/imx258.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[3.854s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov2685.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[3.855s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov4689.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[3.857s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov5640.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[3.858s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov5695.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[3.860s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/ov8858.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[3.861s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rkisp1/data/uncalibrated.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rkisp1
+[3.863s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx219.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.864s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx219_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.866s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx283.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.868s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx290.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.869s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx296.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.871s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx296_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.873s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx378.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.874s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx415.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.876s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx462.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.877s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.879s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.881s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx477_scientific.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.882s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx500.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.884s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx519.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.886s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.888s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.889s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.891s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/imx708_wide_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.893s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov5647.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.895s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov5647_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.896s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov64a40.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.898s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/ov9281_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.899s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/se327m12.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.901s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/pisp/data/uncalibrated.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp
+[3.902s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx219.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.904s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx219_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.905s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx283.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.907s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx290.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.908s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx296.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.909s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx296_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.911s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx327.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.912s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx378.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.913s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx415.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.915s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx462.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.916s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.918s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.920s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx477_scientific.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.921s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx500.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.922s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx519.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.924s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.925s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.926s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.928s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/imx708_wide_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.929s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov5647.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.931s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov5647_noir.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.932s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov64a40.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.934s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov7251_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.935s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/ov9281_mono.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.937s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/se327m12.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.939s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/rpi/vc4/data/uncalibrated.json to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/rpi/vc4
+[3.940s] Installing /home/pi/camera_ws/src/libcamera/src/ipa/simple/data/uncalibrated.yaml to /home/pi/camera_ws/install/libcamera/share/libcamera/ipa/simple
+[3.941s] Installing /home/pi/camera_ws/src/libcamera/src/py/libcamera/__init__.py to /home/pi/camera_ws/install/libcamera/lib/python3.12/site-packages/libcamera
+[3.943s] Installing /home/pi/camera_ws/build/libcamera/src/v4l2/libcamerify to /home/pi/camera_ws/install/libcamera/bin
+[3.944s] Installing symlink pointing to libcamera-base.so.0.5.1 to /home/pi/camera_ws/install/libcamera/lib/libcamera-base.so.0.5
+[3.945s] Installing symlink pointing to libcamera-base.so.0.5 to /home/pi/camera_ws/install/libcamera/lib/libcamera-base.so
+[3.946s] Installing symlink pointing to libcamera.so.0.5.1 to /home/pi/camera_ws/install/libcamera/lib/libcamera.so.0.5
+[3.947s] Installing symlink pointing to libcamera.so.0.5 to /home/pi/camera_ws/install/libcamera/lib/libcamera.so
+[3.948s] Running custom install script '/home/pi/camera_ws/src/libcamera/src/ipa/ipa-sign-install.sh /home/pi/camera_ws/build/libcamera/src/ipa-priv-key.pem lib/libcamera/ipa/ipa_mali_c55.so lib/libcamera/ipa/ipa_rkisp1.so lib/libcamera/ipa/ipa_rpi_pisp.so lib/libcamera/ipa/ipa_rpi_vc4.so lib/libcamera/ipa/ipa_soft_simple.so'
+[3.961s] Regenerating IPA modules signatures
+[4.367s] Invoked command in '/home/pi/camera_ws/build/libcamera' returned '0': /usr/bin/meson install
