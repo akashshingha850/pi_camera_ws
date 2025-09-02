@@ -215,6 +215,56 @@ class ImageSubscriber(Node):
         cv2.waitKey(1)
 ```
 
+## Running at Startup
+
+To automatically start the camera node when the system boots, you can use a systemd service.
+
+### Create the Service File
+Create a systemd service file at `/etc/systemd/system/picam.service` with the following content:
+
+```ini
+[Unit]
+Description=Pi Camera ROS2 Node
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+Environment=ROS_DISTRO=humble
+ExecStart=/home/pi/camera_ws/launch_picam.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### Enable and Start the Service
+```bash
+# Reload systemd daemon
+sudo systemctl daemon-reload
+
+# Enable the service to start at boot
+sudo systemctl enable picam
+
+# Start the service immediately
+sudo systemctl start picam
+```
+
+### Check Service Status
+```bash
+sudo systemctl status picam
+```
+
+### Stop or Disable the Service
+```bash
+# Stop the service
+sudo systemctl stop picam
+
+# Disable from starting at boot
+sudo systemctl disable picam
+```
+
 ## License
 
 This workspace uses components under different licenses:
